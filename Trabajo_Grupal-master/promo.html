@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promociones</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.25/datatables.min.css" />
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand text-primary" href="index.html">Te lo vendo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./promo.html">Promo</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+          </li>            
+        </ul>
+        
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="row">
+      <div class="col-lg-4 container">
+        <h1>Promos disponibles</h1>
+        <img src="./img/papitas.jpg" class="img-fluid" alt="...">
+        <img src="./img/supreme.jpg" class="img-fluid" alt="...">
+        <img src="./img/wrap.jpg" class="img-fluid" alt="...">
+      </div>
+    </div>
+  </main>
+
+  <aside>
+
+    <h2>Combo 1</h2>
+    <p>Hamburguesa más papas fritas $4.990</p>
+    <h2>Combo 2</h2>
+    <p>Papitas supreme $2.990</p>
+    <h2>Combo 3</h2>
+    <p>Wrap de Vegetales $4.990</p>
+    <br>
+    <h2>Todas las promociones incluyen bebida lata de 350ml</h2>
+  </aside>
+  <div class="container">
+    <h2 style="text-align: center;">Sucursales</h2>
+
+    
+    <table id="example" class="display" style="width:100%">
+      <thead>
+        <tr>
+          <th>Local</th>
+          <th>Región</th>
+          <th>Dirección</th>
+          <th>Teléfono</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Santiago Centro</td>
+          <td>Región Metropolitana</td>
+          <td>Alameda 8889</td>
+          <td>+562 8888 6211</td>
+        </tr>
+        <tr>
+          <td>La Serena</td>
+          <td>IV Región</td>
+          <td>Francisco Encina 1234</td>
+          <td>+569 7845 8525</td>
+        </tr>
+        <tr>
+          <td>Concepción</td>
+          <td>VIII Región</td>
+          <td>San Francisco 7854</td>
+          <td>+569 8742 7888</td>
+        </tr>
+        <tr>
+          <td>Coyahique</td>
+          <td>XI Región</td>
+          <td>San Benito 132</td>
+          <td>+569 7841 8785</td>
+        </tr>
+      </tbody>
+      <table>
+  </div>
+
+  <footer>
+    <p>Sprint 01 Grupo 3 - Awakelab</p>
+    <h2>Fecha y hora actual</h2>
+    <p id="fecha"></p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.25/datatables.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+  <script src="./javaescript/js.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+/*header{
+    background-color: #D86951;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 36px;
+    height: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font: left;
+    box-sizing: border-box;
+}*/
+/*main{
+    width: 60%;
+    height: 100vh;
+    float: left;
+    box-sizing: border-box;
+    
+}
+*/
+h1{
+    font-family: sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    color: blueviolet;
+    text-align: center;
+}
+
+/*.principal{
+    background-image: url(./img/burger01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+}*/
+.principal h1{
+    font-family: sans-serif;
+    font-size: 24px;
+    color: aliceblue;
+    align-items: center;
+}
+
+/*nav{
+    text-align: center;
+    color: aliceblue;
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    height: 300px;
+
+}*/
+a{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+
+a.link:hover{
+    color: green;
+    background-color: lightgray;
+}
+a.link:link{
+    color: rgb(0, 0, 0);
+}
+a.link:visited{
+    color: black;
+}
+
+.combos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.combos img {
+
+    width: 29vh;
+    justify-content: center;
+    align-items: center;
+
+}
+aside{
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+
+}
+
+footer{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    width: 100%;
+    
+    box-sizing: border-box;
+    bottom: 0;
+    
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(./img/burger02.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer h2,p{
+    color: rgb(97, 95, 95)
+}
+
+.container {
+    width: 80%;
+}
